@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: external-nginx
   rules:
-    - host: andrzejkl.site
+    - host: elsecu.page
       http:
         paths:
           - path: /
@@ -20,5 +20,5 @@ spec:
                   number: 8080
   tls:
     - hosts:
-        - andrzejkl.site
-      secretName: andrzejkl-site
+        - elsecu.page
+      secretName: elsecu-page
